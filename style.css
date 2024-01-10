@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    .commodities {
+        gap: 10px;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .basket {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin: 100px auto;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        span {
+            background-color: white;
+            position: absolute;
+            right: -10px;
+            bottom: -20px;
+            font-size: 40px;
+            border: 3px solid rgb(102, 11, 68);
+            border-radius: 5px;
+        }
+    }
+}
